@@ -1,0 +1,25 @@
+body{
+   
+    
+}
+
+main{
+    width: 20%;
+    border: groove;
+    border-color: grey;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;    
+}
+
+input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href=css/main.css rel="stylesheet">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <main class="corpo">
+        <h2>Calculadora IMC</h2>
+        <hr>
+        <input type="text" id="txtNome"
+        placeholder="Digite seu nome"/> <br/>
+        <input type="number" id="numPeso" placeholder="Digite seu peso"/><br/>
+        <input type="number" id="numAltura" placeholder="Digite sua altura"/><br/>
+        <div class="botoes">
+            <button class="btn btn-success" id="calcular">Calcular</button>
+            <button class="btn btn-success" id="relatorio">Gerar relatório</button>
+        </div>
+        <hr>
+        <p>
+            Nome: <span id="nome"></span> <br/>
+            peso: <span id="peso"></span> <br/>
+            ALtura: <span id="altura"></span> <br/>
+            IMC: <span id="imc"></span> <br/>
+            Situação: <span id="situacao"></span> <br/>
+        </p>
+        <hr>
+        <ol id="listaNumerada"></ol>
+    </main>
+</body>
+<script src="/js/funcoes.js"></script>
+<script src="js/controller.js"></script>
+</html>
